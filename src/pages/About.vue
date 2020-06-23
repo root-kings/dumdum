@@ -11,6 +11,10 @@
           feeling low.
         </div>
 
+        <div class="text-body1 text-center q-ma-md">
+          Dumdum uses Complimentr API available at https://complimentr.com/.
+        </div>
+
         <div class="text-subtitle text-center q-my-md">
           Created with <q-icon name="favorite" color="red" /> by
           <a href="https://root-kings.github.io" target="_blank">Root Kings</a>.
