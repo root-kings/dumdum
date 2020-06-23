@@ -1,6 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    {{ compliment }}
+    <div class="column  items-center">
+      <div class="col">
+        <div class="text-h5 text-center q-ma-md">{{ compliment }}</div>
+      </div>
+      <div class="col q-my-lg">
+        <q-btn round icon="favorite" color="red" @click="fetchCompliment" />
+      </div>
+    </div>
+    <div class="fixed-bottom text-center q-py-md">
+      <q-btn label="About" icon="info" flat color="blue" to="/about" />
+    </div>
   </q-page>
 </template>
 
@@ -19,8 +29,8 @@ export default {
       });
     }
   },
-  mounted(){
-    this.fetchCompliment()
+  mounted() {
+    this.fetchCompliment();
   }
 };
 </script>
