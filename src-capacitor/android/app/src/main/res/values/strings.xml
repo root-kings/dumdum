@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Dumdum</string>
+    <string name="title_activity_main">Dumdum</string>
+    <string name="package_name">com.rootkings.dumdum</string>
+    <string name="custom_url_scheme">com.rootkings.dumdum</string>
+</resources>
